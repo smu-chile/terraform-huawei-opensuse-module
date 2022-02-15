@@ -2,7 +2,7 @@
 
 | Name | Version |
 |------|---------|
-| <a name="requirement_terraform"></a> [terraform](#requirement\_terraform) | ~> 1.1.6 |
+| <a name="requirement_terraform"></a> [terraform](#requirement\_terraform) | ~> 1.1.3 |
 | <a name="requirement_huaweicloud"></a> [huaweicloud](#requirement\_huaweicloud) | ~> 1.26.1 |
 
 ## Providers
