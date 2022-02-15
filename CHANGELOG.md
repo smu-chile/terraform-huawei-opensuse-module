@@ -6,7 +6,9 @@ All notable changes to this project will be documented in this file.
 
 ## [1.0.1] - 2022-02-15
 
-- Creating a VM with opensuse for testing
+- create VM with opensuse for testing
+- change terraform version to 1.1.3
+- change image to opensuse-rp
 
 ## [1.0.0] - 2022-02-02
 

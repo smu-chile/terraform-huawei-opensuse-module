@@ -1,14 +1,8 @@
-## Architecture Diagram
-
-![Architecture Diagram](docs/images/architecture_diagram.png)
-
-
-
 ## Requirements
 
 | Name | Version |
 |------|---------|
-| <a name="requirement_terraform"></a> [terraform](#requirement\_terraform) | ~> 1.0.6 |
+| <a name="requirement_terraform"></a> [terraform](#requirement\_terraform) | ~> 1.1.6 |
 | <a name="requirement_huaweicloud"></a> [huaweicloud](#requirement\_huaweicloud) | ~> 1.26.1 |
 
 ## Providers
@@ -26,15 +20,15 @@ No modules.
 | Name | Type |
 |------|------|
 | [huaweicloud_compute_eip_associate.associated](https://registry.terraform.io/providers/huaweicloud/huaweicloud/latest/docs/resources/compute_eip_associate) | resource |
-| [huaweicloud_compute_instance.bastion](https://registry.terraform.io/providers/huaweicloud/huaweicloud/latest/docs/resources/compute_instance) | resource |
-| [huaweicloud_compute_keypair.bastion](https://registry.terraform.io/providers/huaweicloud/huaweicloud/latest/docs/resources/compute_keypair) | resource |
-| [huaweicloud_networking_secgroup.bastion](https://registry.terraform.io/providers/huaweicloud/huaweicloud/latest/docs/resources/networking_secgroup) | resource |
+| [huaweicloud_compute_instance.opensuse](https://registry.terraform.io/providers/huaweicloud/huaweicloud/latest/docs/resources/compute_instance) | resource |
+| [huaweicloud_compute_keypair.opensuse](https://registry.terraform.io/providers/huaweicloud/huaweicloud/latest/docs/resources/compute_keypair) | resource |
+| [huaweicloud_networking_secgroup.opensuse](https://registry.terraform.io/providers/huaweicloud/huaweicloud/latest/docs/resources/networking_secgroup) | resource |
 | [huaweicloud_networking_secgroup_rule.inbound_ssh](https://registry.terraform.io/providers/huaweicloud/huaweicloud/latest/docs/resources/networking_secgroup_rule) | resource |
 | [huaweicloud_networking_secgroup_rule.outbound_ssh](https://registry.terraform.io/providers/huaweicloud/huaweicloud/latest/docs/resources/networking_secgroup_rule) | resource |
 | [huaweicloud_vpc_eip.myeip](https://registry.terraform.io/providers/huaweicloud/huaweicloud/latest/docs/resources/vpc_eip) | resource |
 | [huaweicloud_availability_zones.myaz](https://registry.terraform.io/providers/huaweicloud/huaweicloud/latest/docs/data-sources/availability_zones) | data source |
 | [huaweicloud_compute_flavors.flavors](https://registry.terraform.io/providers/huaweicloud/huaweicloud/latest/docs/data-sources/compute_flavors) | data source |
-| [huaweicloud_images_image.bastion](https://registry.terraform.io/providers/huaweicloud/huaweicloud/latest/docs/data-sources/images_image) | data source |
+| [huaweicloud_images_image.opensuse](https://registry.terraform.io/providers/huaweicloud/huaweicloud/latest/docs/data-sources/images_image) | data source |
 
 ## Inputs
 
@@ -51,4 +45,4 @@ No modules.
 
 | Name | Description |
 |------|-------------|
-| <a name="output_bastion_ip"></a> [bastion\_ip](#output\_bastion\_ip) | n/a |
+| <a name="output_opensuse_ip"></a> [opensuse\_ip](#output\_opensuse\_ip) | n/a |
